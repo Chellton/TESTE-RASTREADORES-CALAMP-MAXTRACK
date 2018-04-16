@@ -40,10 +40,10 @@ bool error; //to catch the response of sendSms
 void setup(){
 	Sim800l.begin(); // initializate the library. 
 	text="LAUDEIRA OK";  //text for the message. 
-	number="88997244219"; //change to a valid number.
+	number="889972XXXXX"; //change to a valid number.
 	error=Sim800l.sendSms(number,text);
 	// OR 
-	Sim800l.sendSms("85991714094","Chellton TRIX");
+	Sim800l.sendSms("859917XXXXX","Chellton TRIX");
 
 
 }
